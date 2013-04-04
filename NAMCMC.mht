@@ -1,0 +1,229 @@
+Content-Type: multipart/related; start=<op.mhtml.1361786822151.00e16c5b2e218712@10.0.0.10>; boundary=----------FTQQuqic4KJlYaYCCUWlxg
+Content-Location: http://tunm.k806.ru/NAM.html
+Subject: =?utf-8?Q?=D0=AD=D0=BC=D1=83=D0=BB=D1=8F=D1=82=D0=BE=D1=80=20=D0=BD=D0=BE=D1=80=D0=BC=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D1=85=20=D0=B0=D0=BB=D0=B3=D0=BE=D1=80=D0=B8=D1=82=D0=BC=D0=BE=D0=B2=20=D0=9C=D0=B0=D1=80=D0=BA=D0=BE=D0=B2=D0=B0?=
+MIME-Version: 1.0
+
+------------FTQQuqic4KJlYaYCCUWlxg
+Content-Disposition: inline; filename=NAM.html
+Content-Type: text/html; charset=windows-1251; name=NAM.html
+Content-ID: <op.mhtml.1361786822151.00e16c5b2e218712@10.0.0.10>
+Content-Location: http://tunm.k806.ru/NAM.html
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> 
+<html>
+<head>
+<title>Эмулятор нормальных алгоритмов Маркова</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+</head>
+<script type="text/javascript" src="NAM.js"></script>
+<body style="background-color: white;">
+	<div style="padding:auto; margin:auto; width:500px; margin-top:50">
+		<h3>Эмулятор нормальных алгоритмов Маркова</h3>
+		<p>
+			Входное (выходное) слово:
+			<input size="40" class="ef" id="Word" style="width: 495px; font-family: lucida console,courier;" type="text">
+		</p>
+
+		<p>
+			Правила:
+		</p>
+
+	    
+		<table cellspacing="0">
+			<tbody>
+				<tr valign="top">
+					<td style="border: 1px solid ; width: 250px;">
+			
+		<form action="cgi-bin/NAMlab6.txt" method="post" target="_blank">
+						<textarea cols="20" rows="20" class="ef" id="CodeArea" name="text" style="border: medium none ; width: 250px;"></textarea>
+					</td>
+					<td width="2"></td><td id="ParsedCode" style="border: 1px solid ; width: 250px;">
+						<table width="100%">
+							<tbody>
+								<tr>
+									<td> 
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			<input class="ef" value="Шаг" onclick="Step()" type="button">
+			<input class="ef" value="Запуск" onclick="Run()" type="button">
+			<input class="ef" value="Сохранить" type="submit"><br />
+			<p>
+				Число подстановок (по умолчанию 500):
+			<textarea id="exnum" type="range" maxlength="4" style="height: 16px; border: 1px solid; width: 40px; margin-left: 20px;"></textarea>
+			</p>
+		</form>
+		</p>
+		<textarea rows="4" class="ef" id="ErrorMsg" readonly="readonly" style="width: 300px;">
+		</textarea>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------FTQQuqic4KJlYaYCCUWlxg
+Content-Disposition: inline; filename=NAM.js
+Content-Type: application/x-javascript; name=NAM.js
+Content-Location: http://tunm.k806.ru/NAM.js
+Content-Transfer-Encoding: Base64
+
+CmZ1bmN0aW9uIEhpZ2hMaWdodENvZGUgKCBDb2RlLCBMaW5lICkKewogIHZhciBB
+cmVhID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQgKCJQYXJzZWRDb2RlIik7CiAg
+dmFyIEFscGhhLCBCZXRoYSwgQXJyb3csIER1bW15OwogIER1bW15ID0gIjx0YWJs
+ZSB3aWR0aD0xNDYgY2VsbHNwYWNpbmc9MD4iOwogIGZvciAoIGkgPSAwOyBpIDwg
+Q29kZS5sZW5ndGg7ICsraSApCiAgewogICAgdmFyIFJ1bGUgPSBDb2RlW2ldOwog
+ICAgdmFyIHBvcyA9IFJ1bGUuaW5kZXhPZiAoICItPi4iICkKICAgIGlmICggcG9z
+IDwgMCApIHBvcyA9IFJ1bGUuaW5kZXhPZiAoICItPiIgKTsKICAgIGlmICggMCA8
+PSBwb3MgKQogICAgewogICAgICBBbHBoYSA9IFJ1bGUuc3Vic3RyICggMCwgcG9z
+ICk7CiAgICAgIEFycm93ID0gUnVsZS5zdWJzdHIgKCBwb3MsIDMgKTsKICAgICAg
+aWYgKCBBcnJvdyA9PSAiLT4uIiApIEFycm93ID0gIiYjODYxNDsiOyAKCSAgZWxz
+ZSBBcnJvdyA9ICImIzg1OTQiOwogICAgICBCZXRoYSA9IEFycm93ID09ICImIzg2
+MTQ7IiA/IFJ1bGUuc3Vic3RyICggcG9zICsgMywgUnVsZS5sZW5ndGggLSBwb3Mg
+LSAyICkgOiAgUnVsZS5zdWJzdHIgKCBwb3MgKyAyLCBSdWxlLmxlbmd0aCAtIHBv
+cyAtIDIgKTsKICAgIH0KICAgIER1bW15ICs9ICI8dHIgdmFsaWduPXRvcCI7CiAg
+ICBpZiAoIGkgPT0gTGluZSApIER1bW15ICs9ICIgYmdjb2xvcj0jZTBmMGUwIjsK
+ICAgIER1bW15ICs9ICI+PHRkIGFsaWduPXJpZ2h0IHdpZHRoPTI1PiIgKyAoaSAr
+IDEgKSArICIuJm5ic3A7PC90ZD48dGQgYWxpZ249cmlnaHQ+IiArIEFscGhhICsg
+IjwvdGQ+PHRkIGFsaWduPWNlbnRlciBzdHlsZT1cImZvbnQtZmFjZTp0aW1lcyBu
+ZXcgcm9tYW4sc2VyaWY7XCI+IiArIEFycm93ICsgIjwvdGQ+PHRkIGFsaWduPWxl
+ZnQ+IiArIEJldGhhICsgIiZuYnNwOyZuYnNwOzwvdGQ+PC90cj4iOwogIH0KICBE
+dW1teSArPSAiPC90YWJsZT4iOwogIEFyZWEuaW5uZXJIVE1MID0gRHVtbXk7Cn0K
+CmZ1bmN0aW9uIFJ1bk9uY2UgKCkKewogIHZhciBSdWxlc01heFF0eSA9IDUwOwog
+IHZhciBSZXMgPSBmYWxzZTsKICB2YXIgRXhlY3V0ZWQgPSAwOwogIHZhciBDb2Rl
+ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoIkNvZGVBcmVhIikudmFsdWUuc3Bs
+aXQoL1xuLyk7CiAgdmFyIFdvcmQgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgi
+V29yZCIpLnZhbHVlOwogIHZhciBSdWxlcyA9IG5ldyBBcnJheSAoKTsKICB2YXIg
+VGVybWluYWxSdWxlOwogIHZhciBwb3M7CiAgdmFyIGFscGhhLCBiZXRoYTsKICB2
+YXIgYzsKCiAgUiA9IDA7CiAgZm9yICggaSA9IDA7IGkgPCBDb2RlLmxlbmd0aCAm
+JiBpIDwgUnVsZXNNYXhRdHk7ICsraSApCiAgewogICAgdmFyIHRtcCA9IENvZGVb
+aV07CiAgICB2YXIgUnVsZSA9ICIiOwogICAgZm9yICggaiA9IDA7IGogPCB0bXAu
+bGVuZ3RoIDsgKytqICkKICAgIHsKICAgICAgYyA9IHRtcC5zdWJzdHIoaiwxKTsK
+ICAgICAgaWYgKCBjICE9ICIgIiAmJiBjICE9ICJcdCIgKSBSdWxlICs9IGM7CiAg
+ICB9CiAgICBpZiAoIDAgPCBSdWxlLmxlbmd0aCApCiAgICB7CiAgCiAgICAgICBp
+ZiAoIFJ1bGUuaW5kZXhPZiAoICItPiIgKSA8IDAgJiYgUnVsZS5pbmRleE9mICgg
+Ii0+LiIgKSA8IDAgKQogICAgICAgICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCAo
+IkVycm9yTXNnIikuaW5uZXJIVE1MICs9ICggaSArIDEgKSArICI6IO/w7u/z+eXt
+IOft4Oog7/Dg4ujr4C5cbiI7CiAgICAgICBlbHNlCiAgICAgICB7CiAgICAgICAg
+IFJ1bGVzW1JdID0gUnVsZTsKICAgICAgICAgKytSOwogICAgICAgfQogICAgfQog
+ICAgLy9lbHNlCiAgICAvLyAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQgKCJFcnJv
+ck1zZyIpLmlubmVySFRNTCArPSAoIGkgKyAxICkgKyAiOiDv8/Hy4P8g8fLw7urg
+LlxuIjsKICB9CiAgaSA9IDA7CiAgVG90YWxSdWxlcyA9IFIgPD0gNjIgPyBSIDog
+NjI7CiAgVGVybWluYWxSdWxlID0gZmFsc2U7CiAgd2hpbGUgKCBFeGVjdXRlZCA9
+PSAwICYmIGkgPCBUb3RhbFJ1bGVzICYmICFUZXJtaW5hbFJ1bGUgKQogIHsKICAg
+IFRlcm1pbmFsUnVsZSA9IGZhbHNlOwogICAgUnVsZSA9IFJ1bGVzW2ldOwogICAg
+aWYgKCAwIDw9ICggcG9zID0gUnVsZS5pbmRleE9mICggIi0+LiIgKSApICkKICAg
+IHsKICAgICAgYWxwaGEgPSBSdWxlLnN1YnN0ciAoIDAsIHBvcyApOwogICAgICBi
+ZXRoYSA9IAoJICBSdWxlLnN1YnN0ciAoIHBvcyArIDMsIFJ1bGUubGVuZ3RoIC0g
+cG9zIC0gMyApOwogICAgICBpZiAoIDAgPD0gV29yZC5pbmRleE9mIChhbHBoYSkg
+KQogICAgICB7CiAgICAgICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQgKCJXb3Jk
+IikudmFsdWUgPSBXb3JkLnJlcGxhY2UgKCBhbHBoYSwgYmV0aGEgKTsKCQlUZXJt
+aW5hbFJ1bGUgPSB0cnVlOwogICAgICAgIEV4ZWN1dGVkID0gaSArIDE7CiAgICAg
+IH0KICAgIH0KICAgIGVsc2UgaWYgKCAwIDw9ICggcG9zID0gUnVsZS5pbmRleE9m
+ICggIi0+IiApICkgKQogICAgewogICAgICBhbHBoYSA9IFJ1bGUuc3Vic3RyICgg
+MCwgcG9zICk7CiAgICAgIGJldGhhID0gUnVsZS5zdWJzdHIgKCBwb3MgKyAyLCBS
+dWxlLmxlbmd0aCAtIHBvcyAtIDIgKTsKICAgICAgaWYgKCAwIDw9IFdvcmQuaW5k
+ZXhPZiAoYWxwaGEpICkKICAgICAgewogICAgICAgIGRvY3VtZW50LmdldEVsZW1l
+bnRCeUlkICgiV29yZCIpLnZhbHVlID0gV29yZC5yZXBsYWNlICggYWxwaGEsIGJl
+dGhhICk7CiAgICAgICAgRXhlY3V0ZWQgPSBpICsgMTsKICAgICAgfQogICAgfQog
+ICAgaWYgKCBFeGVjdXRlZCApIEhpZ2hMaWdodENvZGUgKCBSdWxlcywgaSApOwog
+ICAgKytpOwogIH0KICByZXR1cm4gKCBFeGVjdXRlZCAhPSAwICYmICFUZXJtaW5h
+bFJ1bGUgKSA/IEV4ZWN1dGVkIDogMDsKfQpmdW5jdGlvbiBSdW4gKCkKewogIHZh
+ciBNYXhFeGVjdXRpb24gICA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJleG51
+bSIpLnZhbHVlID09ICIiID8gNTAwIDogZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQo
+ImV4bnVtIikudmFsdWU7CiAgdmFyIEV4ZWN1dGlvbkNvdW50ID0gMDsKICB2YXIg
+QXBwbGljYWJsZSAgICAgPSB0cnVlOwoKICBkb2N1bWVudC5nZXRFbGVtZW50QnlJ
+ZCAoIkVycm9yTXNnIikuaW5uZXJIVE1MID0gIiI7CiAgd2hpbGUgKCBSdW5PbmNl
+ICgpICYmIEV4ZWN1dGlvbkNvdW50IDwgTWF4RXhlY3V0aW9uICkgeyArK0V4ZWN1
+dGlvbkNvdW50OyB9CiAgaWYgKCBFeGVjdXRpb25Db3VudCA9PSBNYXhFeGVjdXRp
+b24gKQogICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQgKCJFcnJvck1zZyIpLmlu
+bmVySFRNTCArPSAiz/Dl4vv45e3uIOLw5ez/IOL77+7r7eXt6P8uXG4iOwogIGVs
+c2UKICAgIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkICgiRXJyb3JNc2ciKS5pbm5l
+ckhUTUwgKz0gIsL77+7r7eXt6OUg5+Di5fD45e3uLlxuIjsKfQpmdW5jdGlvbiBT
+dGVwICgpCnsKICB2YXIgRXJyb3JNU2cgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJ
+ZCAoIkVycm9yTXNnIik7CiAgaWYgKCByID0gUnVuT25jZSgpICkgRXJyb3JNU2cu
+aW5uZXJIVE1MICs9ICLP8ODi6OvuICIgKyByICsgIiDv8Ojs5e3l7e4uXG4iOwog
+IGVsc2UgRXJyb3JNU2cuaW5uZXJIVE1MID0gIs3oIO7k7e4g7/Dg4ujr7iDt5SDv
+8Ojs5e3l7e4sIOvo4e4g4vvv7uvt5e3uIPLl8Ozo7eDr/O3u5SDv8ODi6OvuLlxu
+IjsKfQoK
+
+------------FTQQuqic4KJlYaYCCUWlxg--
